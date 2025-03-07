@@ -46,6 +46,7 @@ These steps establish the foundation for further Active Directory configurations
 <br />
 
 ![image](https://github.com/user-attachments/assets/9a8a322b-5d82-4e03-a313-25b8152bbe45)
+
 <h3>Part 1: Setting Up Active Directory</h3>
 <p>
 Install Active Directory
@@ -65,6 +66,8 @@ Restart Client-1 from the Azure Portal.
 Log into Client-1 as labuser and join it to the domain.
 Verify Client-1 appears in ADUC, then move it to the _CLIENTS OU.
 💡 Tip: Don’t delete the VMs after completing the lab. To save costs, stop them in Azure Portal.
+
+![image](https://github.com/user-attachments/assets/7b5c660e-da04-4b2a-a31b-a85781a5c911)
 
 <h3>Part 2: Configuring Remote Desktop & User Accounts</h3>
 
