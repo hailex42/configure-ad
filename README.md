@@ -36,15 +36,18 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>
 <h3>Setting Up a Domain Controller in Azure</h3>
 
-To set up a Domain Controller in Azure, create a Resource Group, then set up a Virtual Network and Subnet. Deploy a Windows Server 2022 VM (DC-1) with a static Private IP, disable the Windows Firewall, and configure it as a Domain Controller. Next, create a Windows 10 Client VM (Client-1), attach it to the same Virtual Network, and configure its DNS settings to point to DC-1’s Private IP. Restart Client-1, verify connectivity by pinging DC-1, and confirm DNS settings with ipconfig /all in PowerShell. These steps establish the foundation for further Active Directory configurations in Azure.
+To set up a Domain Controller in Azure, create a Resource Group, then set up a Virtual Network and Subnet. 
+Deploy a Windows Server 2022 VM (DC-1) with a static Private IP, disable the Windows Firewall, and configure it as a Domain Controller. 
+Next, create a Windows 10 Client VM (Client-1), attach it to the same Virtual Network, and configure its DNS settings to point to DC-1’s Private IP. Restart Client-1, verify connectivity by pinging DC-1, and confirm DNS settings with ipconfig /all in PowerShell. 
+These steps establish the foundation for further Active Directory configurations in Azure.
 
 
 </p>
 <br />
 
 ![image](https://github.com/user-attachments/assets/9a8a322b-5d82-4e03-a313-25b8152bbe45)
+<h3>Part 1: Setting Up Active Directory</h3>
 <p>
-Part 1: Setting Up Active Directory
 Install Active Directory
 Log into DC-1 and install Active Directory Domain Services.
 Promote DC-1 to a Domain Controller, creating a new forest (e.g., mydomain.com).
@@ -63,7 +66,8 @@ Log into Client-1 as labuser and join it to the domain.
 Verify Client-1 appears in ADUC, then move it to the _CLIENTS OU.
 💡 Tip: Don’t delete the VMs after completing the lab. To save costs, stop them in Azure Portal.
 
-Part 2: Configuring Remote Desktop & User Accounts
+<h3>Part 2: Configuring Remote Desktop & User Accounts</h3>
+
 Enable Remote Desktop for Domain Users
 Log into Client-1 as jane_admin.
 Open System Properties → Remote Desktop → Allow domain users.
