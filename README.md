@@ -53,22 +53,34 @@ These steps establish the foundation for further Active Directory configurations
 <h3>Part 1: Setting Up Active Directory</h3>
 <p>
 Install Active Directory
+  
 Log into DC-1 and install Active Directory Domain Services.
+
 Promote DC-1 to a Domain Controller, creating a new forest (e.g., mydomain.com).
+
 Restart and log back in as mydomain.com\labuser.
+
 Create a Domain Admin User
+
 In Active Directory Users and Computers (ADUC), create the following OUs:
 _EMPLOYEES
 _ADMINS
+
 Create a user Jane Doe (jane_admin / Cyberlab123!).
+
 Add jane_admin to the Domain Admins security group.
+
 Log out and back in as mydomain.com\jane_admin—this is now your admin account.
+
 Join Client-1 to the Domain
+
 Ensure Client-1’s DNS is set to DC-1’s Private IP.
+
 Restart Client-1 from the Azure Portal.
+
 Log into Client-1 as labuser and join it to the domain.
+
 Verify Client-1 appears in ADUC, then move it to the _CLIENTS OU.
-💡 Tip: Don’t delete the VMs after completing the lab. To save costs, stop them in Azure Portal.
 
 ![image](https://github.com/user-attachments/assets/7b5c660e-da04-4b2a-a31b-a85781a5c911)
 
