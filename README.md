@@ -108,10 +108,9 @@ Attempt to log into Client-1 with one of the newly created accounts
 <br />
 
 ![image](https://github.com/user-attachments/assets/03a08c15-81f8-47f6-afb2-f146839dc457)
+<h3>Managing Account Lockouts and Permissions</h3>
 
 <p>
-Managing Account Lockouts and Permissions
-
 Simulating an Account Lockout
 
 Log into DC-1.
