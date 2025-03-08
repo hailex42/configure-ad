@@ -32,6 +32,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 ![image](https://github.com/user-attachments/assets/ed823a33-e651-497e-822e-3b88b0594c04)
+
 <h3>Setting Up a Domain Controller in Azure</h3>
 <p>
 
@@ -72,7 +73,6 @@ Verify Client-1 appears in ADUC, then move it to the _CLIENTS OU.
 ![image](https://github.com/user-attachments/assets/7b5c660e-da04-4b2a-a31b-a85781a5c911)
 
 <h3>Part 2: Configuring Remote Desktop & User Accounts</h3>
-
 Enable Remote Desktop for Domain Users
 Log into Client-1 as jane_admin.
 Open System Properties → Remote Desktop → Allow domain users.
@@ -84,8 +84,10 @@ Verify new users in ADUC under _EMPLOYEES.
 Attempt to log into Client-1 with one of the newly created accounts.
 </p>
 <br />
+
+![image](https://github.com/user-attachments/assets/03a08c15-81f8-47f6-afb2-f146839dc457)
+
 <p>
- 
 Managing Account Lockouts and Permissions
 
 Simulating an Account Lockout
