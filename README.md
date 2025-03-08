@@ -63,6 +63,7 @@ Create a Domain Admin User
 
 In Active Directory Users and Computers (ADUC), create the following OUs:
 _EMPLOYEES
+
 _ADMINS
 
 Create a user Jane Doe (jane_admin / Cyberlab123!).
