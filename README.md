@@ -84,11 +84,41 @@ Verify new users in ADUC under _EMPLOYEES.
 Attempt to log into Client-1 with one of the newly created accounts.
 </p>
 <br />
+![image](https://github.com/user-attachments/assets/8bf77711-26d9-40b9-a636-758a13f0100d)
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Managing Account Lockouts and Permissions
+
+Simulating an Account Lockout
+
+Log into DC-1.
+
+Select a previously created user account.
+
+Attempt to log in 10 times with an incorrect password.
+
+Configuring Group Policy for Lockout Threshold
+
+Set the Account Lockout Threshold in Group Policy to 5 failed attempts.
+
+Attempt to log in 6 times with an incorrect password.
+
+Verify that the account is locked out in Active Directory.
+
+Unlock the account, reset the password, and attempt to log in successfully.
+
+Enabling and Disabling User Accounts
+
+Disable the account in Active Directory.
+
+Attempt to log in and observe the error message.
+
+Re-enable the account and verify successful login.
+
+Reviewing Logs
+
+Observe event logs on the Domain Controller.
+
+Check related logs on the Client Machine.
 </p>
 <br />
