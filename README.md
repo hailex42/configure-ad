@@ -84,9 +84,8 @@ Verify new users in ADUC under _EMPLOYEES.
 Attempt to log into Client-1 with one of the newly created accounts.
 </p>
 <br />
-![image](https://github.com/user-attachments/assets/8bf77711-26d9-40b9-a636-758a13f0100d)
-
 <p>
+ 
 Managing Account Lockouts and Permissions
 
 Simulating an Account Lockout
