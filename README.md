@@ -85,15 +85,25 @@ Verify Client-1 appears in ADUC, then move it to the _CLIENTS OU.
 ![image](https://github.com/user-attachments/assets/7b5c660e-da04-4b2a-a31b-a85781a5c911)
 
 <h3>Part 2: Configuring Remote Desktop & User Accounts</h3>
-Enable Remote Desktop for Domain Users
+<p>
+Enable Remote Desktop for Domain Users.
+  
 Log into Client-1 as jane_admin.
+
 Open System Properties → Remote Desktop → Allow domain users.
+
 You can now log into Client-1 as a standard domain user.
-Create Additional Users & Test Login
+
+Create Additional Users & Test Login.
+
 Log into DC-1 as jane_admin.
+
 Open PowerShell_ISE as Administrator and run a script to create users.
+
 Verify new users in ADUC under _EMPLOYEES.
-Attempt to log into Client-1 with one of the newly created accounts.
+
+Attempt to log into Client-1 with one of the newly created accounts
+
 </p>
 <br />
 
