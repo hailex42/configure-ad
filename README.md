@@ -31,9 +31,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - ### [Youtube: Active Directory Infrastructure](https://youtu.be/NdzmEvoZbUU)
 
-
-
-
 <p>
 
 To set up a Domain Controller in Azure, create a Resource Group, then set up a Virtual Network and Subnet. 
@@ -139,7 +136,10 @@ Attempt to log in 6 times with an incorrect password.
 
 Verify that the account is locked out in Active Directory.
 
-Unlock the account, reset the password, and attempt to log in successfully.
+Unlock the account, reset the password, and attempt to log in successfully. </p>
+
+
+- ### [Youtube: Enabling & Disabling Accounts](https://www.youtube.com/watch?v=rrAw88eMW74)
 
 Enabling and Disabling User Accounts
 
@@ -149,7 +149,12 @@ Attempt to log in and observe the error message.
 
 Re-enable the account and verify successful login.
 
-Reviewing Logs
+
+
+- ### [Youtube: Enabling & Disabling Accounts](https://www.youtube.com/watch?v=Onkr8PGxfp8)
+
+  Reviewing Logs
+
 
 Observe event logs on the Domain Controller.
 
