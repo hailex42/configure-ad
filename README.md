@@ -58,8 +58,6 @@ Promote DC-1 to a Domain Controller, creating a new forest (e.g., nero.com).
 
 Restart and log back in as nero.com\labuser.
 
-Create a Domain Admin User
-
 In Active Directory Users and Computers (ADUC), create the following OUs:
 _EMPLOYEES
 
@@ -69,9 +67,11 @@ _ADMINS
 ![image](https://github.com/user-attachments/assets/9a8a322b-5d82-4e03-a313-25b8152bbe45)
 
 <p>
-Create a user Jane Doe (jane_admin / Cyberlab123!).
+Create a user in the _Admins OU 
+  
+Name user Jane Doe, User logon name:jane_admin@nero.com Password:(eg.Forester23!)
 
-Add jane_admin to the Domain Admins security group.
+  Add jane_admin to the Domain Admins security group.
 
 Log out and back in as mydomain.com\jane_admin—this is now your admin account.
 
