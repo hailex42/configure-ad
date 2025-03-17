@@ -143,23 +143,26 @@ Attempt to log into Client-1 with one of the newly created accounts
 
 
 <p>
-    -Log into DC-1 as jane_admin
-    -Select a previously created user account.
-    -Attempt to log into client-1 with the user account
-    -Try to login 10 times with an incorrect password.
+  Login Attempt
+  
+      -Log into DC-1 as jane_admin
+      -Select a previously created user account.
+      -Attempt to log into client-1 with the user account
+      -Try to login 10 times with an incorrect password.
 
 Configuring Group Policy for Lockout Threshold
-    - In the Domain controller, right click start and select run
-    - Type gpmc.msc> enter
-    - This opens the Group Policy Management Console
-    - Go to domains>(your domain)>right click default domain policy> edit
-    - In default domain policy> Computer Configuration> Policies> Windows Settings> Security Settings> Account Policy> Account lockout Policy
-    -Set the Account Lockout Threshold in Group Policy to 5 failed attempts.
-    -Attempt to log in 6 times with an incorrect password.
+
+      - In the Domain controller, right click start and select run
+      - Type gpmc.msc> enter
+      - This opens the Group Policy Management Console
+      - Go to domains>(your domain)>right click default domain policy> edit
+      - In default domain policy> Computer Configuration> Policies> Windows Settings> Security Settings> Account Policy> Account lockout Policy
+      -Set the Account Lockout Threshold in Group Policy to 5 failed attempts.
+      -Attempt to log in 6 times with an incorrect password.
 
 Verify that the account is locked out in Active Directory.
 
-Unlock the account, reset the password, and attempt to log in successfully. </p></br>
+Unlock the account, reset the password, and attempt to log in successfully. </p> </br>
 
 
 
