@@ -50,6 +50,8 @@ These steps establish the foundation for further Active Directory configurations
 
 <h3>Deploying Active Directory</h3>
 
+- ### [Youtube: Active Directory Infrastructure](https://youtu.be/K609TSbxmj0)
+
 <p>
 Install Active Directory
   
