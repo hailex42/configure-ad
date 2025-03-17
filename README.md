@@ -54,9 +54,9 @@ Install Active Directory
   
 Log into DC-1 and install Active Directory Domain Services.
 
-Promote DC-1 to a Domain Controller, creating a new forest (e.g., mydomain.com).
+Promote DC-1 to a Domain Controller, creating a new forest (e.g., nero.com).
 
-Restart and log back in as mydomain.com\labuser.
+Restart and log back in as nero.com\labuser.
 
 Create a Domain Admin User
 
