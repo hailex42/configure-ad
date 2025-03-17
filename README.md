@@ -120,6 +120,7 @@ Attempt to log into Client-1 with one of the newly created accounts
 
 
 <h3>Group Policy and Managing Accounts</h3>
+- ### [Youtube: Account Lockouts](https://www.youtube.com/watch?v=Exgmu6gjWGI)
 
 <p>
 Simulating an Account Lockout
