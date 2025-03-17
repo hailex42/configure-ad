@@ -94,8 +94,6 @@ Verify Client-1 appears in ADUC, then move it to the _CLIENTS OU. </p>
 
 - ### [Youtube: Creating Users with Power Shell](https://youtu.be/ETuLQhwHp9s)
 
-![image](https://github.com/user-attachments/assets/7b5c660e-da04-4b2a-a31b-a85781a5c911)
-
 <p>
 Log into Client-1 as mydomain.com\jane_admin
 Open system properties
@@ -105,7 +103,7 @@ You can now log into Client-1 as a normal, non-administrative user now
 </p>
 
 
-
+<p>
 Log into DC-1 as jane_admin.
 
 Open PowerShell_ISE as Administrator and run a script to create users.
@@ -117,7 +115,9 @@ Attempt to log into Client-1 with one of the newly created accounts
 </p>
 <br />
 
-![image](https://github.com/user-attachments/assets/03a08c15-81f8-47f6-afb2-f146839dc457)
+![image](https://github.com/user-attachments/assets/7b5c660e-da04-4b2a-a31b-a85781a5c911)
+
+
 <h3>Group Policy and Managing Accounts</h3>
 
 <p>
@@ -153,4 +153,6 @@ Observe event logs on the Domain Controller.
 
 Check related logs on the Client Machine.
 </p>
+
+![image](https://github.com/user-attachments/assets/03a08c15-81f8-47f6-afb2-f146839dc457)
 <br />
