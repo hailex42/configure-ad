@@ -58,7 +58,7 @@ Promote DC-1 to a Domain Controller, creating a new forest (e.g., nero.com).
 
 Restart and log back in as nero.com\labuser.
 
-In Active Directory Users and Computers (ADUC), create the following OUs:
+In Active Directory Users and Computers (ADUC), create the following Organizaitonal Unit (OU):
 _EMPLOYEES
 
 _ADMINS
@@ -80,6 +80,15 @@ Log into Client-1.
 Go to systems settings, click rename this PC, in the Computer Name tab click Change to rename computer.
 In the 'Member of'section; select Domain and input the name of the domain: (eg. nero.com)
 Input logon credentials for nero.com\jane_admin (This account has permission to join the domain).
+
+Go back to the DC->ADUC->Nero.com
+Create new _Clients OU
+
+Go back to the DC->ADUC->Nero.com
+Select Computers folder. 
+Verify that client-1 appears in there.
+Drag the client-1 into the _Clients OU
+
 
 Join Client-1 to the Domain
 
