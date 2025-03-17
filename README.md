@@ -27,7 +27,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 -  Creating Users with Power Shell
 -  Group Policy and Managing Accounts
 
-<h2>Video Demonstration</h2>
+<h2>Preparing Active Directory Infrastructure</h2>
 
 - ### [Youtube: Active Directory Infrastructure](https://youtu.be/NdzmEvoZbUU)
 
