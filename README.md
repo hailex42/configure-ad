@@ -49,12 +49,14 @@ These steps establish the foundation for further Active Directory configurations
 
 - ### [Youtube: Deploying Active Directory](https://youtu.be/K609TSbxmj0)
 
-<p>
-Install Active Directory
-  
-Log into DC-1 and install Active Directory Domain Services.
 
-Promote DC-1 to a Domain Controller, creating a new forest (e.g., nero.com).
+<h4>Install Active Directory</h4>
+
+<p> (Server Manager>Add Roles and Features>Role-based or feature-based installation>Select a server from the server pool>select Active Directory Domain Services>Install</p>
+
+<h4>In Server Manager Dashboard<h/4>
+<p> 
+Click the flag and select 'Promote this server to a domain controller'>Deployment Configuration>Add a new forest>Root domain name: new forest (e.g., nero.com).>Install
 
 Restart and log back in as nero.com\labuser.
 
