@@ -48,9 +48,8 @@ These steps establish the foundation for further Active Directory configurations
 </p>
 <br />
 
-![image](https://github.com/user-attachments/assets/9a8a322b-5d82-4e03-a313-25b8152bbe45)
-
 <h3>Deploying Active Directory</h3>
+
 <p>
 Install Active Directory
   
@@ -66,7 +65,12 @@ In Active Directory Users and Computers (ADUC), create the following OUs:
 _EMPLOYEES
 
 _ADMINS
+</p> 
 
+![image](https://github.com/user-attachments/assets/9a8a322b-5d82-4e03-a313-25b8152bbe45)
+
+
+<p>
 Create a user Jane Doe (jane_admin / Cyberlab123!).
 
 Add jane_admin to the Domain Admins security group.
@@ -81,7 +85,8 @@ Restart Client-1 from the Azure Portal.
 
 Log into Client-1 as labuser and join it to the domain.
 
-Verify Client-1 appears in ADUC, then move it to the _CLIENTS OU.
+Verify Client-1 appears in ADUC, then move it to the _CLIENTS OU. </p>
+<b>
 
 ![image](https://github.com/user-attachments/assets/7b5c660e-da04-4b2a-a31b-a85781a5c911)
 
