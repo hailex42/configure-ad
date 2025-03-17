@@ -71,8 +71,8 @@ Create a user in the _Admins OU
   
 Name user Jane Doe, User logon name:jane_admin@nero.com Password:(eg.Forester23!)
 
-  Add jane_admin to the Domain Admins security group. (Right click Jane Doe user in the admins OU, navigate to 'Member Of' tab, click add, enter '
-  domain admins'into the 'enter the object name to select' field, then click ok.
+Add jane_admin to the Domain Admins security group. (Right click Jane Doe user in the admins OU, navigate to 'Member Of' tab, click add, 
+enter 'domain admins' into the 'enter the object name to select' field, then click ok.
 
 Log out and back in as mydomain.com\jane_admin—this is now your admin account.
 
