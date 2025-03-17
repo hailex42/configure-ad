@@ -67,6 +67,7 @@ _ADMINS
 ![image](https://github.com/user-attachments/assets/9a8a322b-5d82-4e03-a313-25b8152bbe45)
 
 <p>
+
 Create a user in the _Admins OU 
   
 Name user Jane Doe, User logon name:jane_admin@nero.com Password:(eg.Forester23!)
