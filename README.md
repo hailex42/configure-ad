@@ -61,7 +61,7 @@ Click the flag and select 'Promote this server to a domain controller'>Deploymen
 <p>
 - Restart and log back in as nero.com\labuser.
 
-In Active Directory Users and Computers (ADUC), create the following Organizaitonal Unit (OU):
+In Active Directory Users and Computers (ADUC)>Right cick your domain name> create the following Organizaitonal Units (OU):
 _EMPLOYEES
 
 _ADMINS
