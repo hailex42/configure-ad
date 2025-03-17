@@ -171,5 +171,4 @@ Re-enable the account and verify successful login.
 <p> Observe event logs on the Domain Controller.
 Check related logs on the Client Machine.</p></br>
 
-39dc457)
 
