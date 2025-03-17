@@ -117,11 +117,12 @@ Attempt to log into Client-1 with one of the newly created accounts
 
 
 <h3>Group Policy and Managing Accounts</h3>
+<br>
+</br>
+
 - ### [Youtube: Account Lockouts](https://www.youtube.com/watch?v=Exgmu6gjWGI)
 
 <p>
-Simulating an Account Lockout
-
 Log into DC-1.
 
 Select a previously created user account.
@@ -141,8 +142,6 @@ Unlock the account, reset the password, and attempt to log in successfully. </p>
 
 - ### [Youtube: Enabling & Disabling Accounts](https://www.youtube.com/watch?v=rrAw88eMW74)
 
-Enabling and Disabling User Accounts
-
 Disable the account in Active Directory.
 
 Attempt to log in and observe the error message.
@@ -151,12 +150,9 @@ Re-enable the account and verify successful login.
 
 
 
-- ### [Youtube: Enabling & Disabling Accounts](https://www.youtube.com/watch?v=Onkr8PGxfp8)
+- ### [Youtube: Reviewing Logs](https://www.youtube.com/watch?v=Onkr8PGxfp8)
 
-  Reviewing Logs
-
-
-Observe event logs on the Domain Controller.
+ Observe event logs on the Domain Controller.
 
 Check related logs on the Client Machine.
 </p>
