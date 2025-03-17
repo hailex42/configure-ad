@@ -95,17 +95,12 @@ Log into Client-1.
       -  Select Computers folder. 
       -  Verify that client-1 appears in there.
       -  Drag the client-1 into the _Clients OU.
+      
+(Ensure Client-1’s DNS is set to DC-1’s Private IP).
 
+(Restart Client-1 from the Azure Portal).
 
-
-
-Ensure Client-1’s DNS is set to DC-1’s Private IP.
-
-Restart Client-1 from the Azure Portal.
-
-Log into Client-1 as labuser and join it to the domain.
-
-Verify Client-1 appears in ADUC, then move it to the _CLIENTS OU. </p>
+</p>
 </br>
 
 <h3>Creating Users with Power Shell</h3>
