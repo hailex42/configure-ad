@@ -92,6 +92,8 @@ Verify Client-1 appears in ADUC, then move it to the _CLIENTS OU. </p>
 
 <h3>Creating Users with Power Shell</h3>
 
+- ### [Youtube: Creating Users with Power Shell](https://youtu.be/ETuLQhwHp9s)
+
 ![image](https://github.com/user-attachments/assets/7b5c660e-da04-4b2a-a31b-a85781a5c911)
 
 
