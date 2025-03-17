@@ -139,6 +139,9 @@ Attempt to log into Client-1 with one of the newly created accounts
 
 - ### [Youtube: Account Lockouts](https://www.youtube.com/watch?v=Exgmu6gjWGI)
 
+  ![image](https://github.com/user-attachments/assets/77a8978f-abaa-4764-adf7-5f5a1099a65a)
+
+
 <p>
 Log into DC-1.
 
