@@ -98,7 +98,9 @@ Verify Client-1 appears in ADUC, then move it to the _CLIENTS OU. </p>
 Log into Client-1 as mydomain.com\jane_admin
 Open system properties
 Click “Remote Desktop”
-Allow “domain users” access to remote desktop
+  Then Click "select users that can remotely access this PC"
+  Type 'Domain users' and then click check names... then click ok.
+
 You can now log into Client-1 as a normal, non-administrative user now
 </p>
 
