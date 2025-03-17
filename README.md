@@ -102,7 +102,6 @@ Allow “domain users” access to remote desktop
 You can now log into Client-1 as a normal, non-administrative user now
 </p>
 
-
 <p>
 Log into DC-1 as jane_admin.
 
