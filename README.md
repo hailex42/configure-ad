@@ -79,6 +79,8 @@ Log out and back in as mydomain.com\jane_admin (this is now your admin account).
 Log into Client-1.
 Go to systems settings, click rename this PC, in the Computer Name tab click Change to rename computer.
 In the 'Member of'section; select Domain and input the name of the domain: (eg. nero.com)
+Input logon credentials for nero.com\jane_admin (This account has permission to join the domain).
+
 Join Client-1 to the Domain
 
 Ensure Client-1’s DNS is set to DC-1’s Private IP.
