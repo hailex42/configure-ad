@@ -52,7 +52,7 @@ These steps establish the foundation for further Active Directory configurations
 
 <h4>Install Active Directory</h4>
 
-<p> (Server Manager>Add Roles and Features>Role-based or feature-based installation>Select a server from the server pool>select Active Directory Domain Services>Install
+<p> Server Manager>Add Roles and Features>Role-based or feature-based installation>Select a server from the server pool>select Active Directory Domain Services>Install
 
 - In Server Manager Dashboard
 
