@@ -156,6 +156,7 @@ Verify that the account is locked out in Active Directory.
 
 Unlock the account, reset the password, and attempt to log in successfully. </p></br>
 
+![image](https://github.com/user-attachments/assets/03a08c15-81f8-47f6-afb2-f1468
 
 - ### [Youtube: Enabling & Disabling Accounts](https://www.youtube.com/watch?v=rrAw88eMW74)
 
@@ -170,5 +171,5 @@ Re-enable the account and verify successful login.
 <p> Observe event logs on the Domain Controller.
 Check related logs on the Client Machine.</p></br>
 
-![image](https://github.com/user-attachments/assets/03a08c15-81f8-47f6-afb2-f146839dc457)
+39dc457)
 
