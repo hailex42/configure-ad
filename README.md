@@ -90,9 +90,11 @@ Log into Client-1 as labuser and join it to the domain.
 Verify Client-1 appears in ADUC, then move it to the _CLIENTS OU. </p>
 <b>
 
+<h3>Creating Users with Power Shell</h3>
+
 ![image](https://github.com/user-attachments/assets/7b5c660e-da04-4b2a-a31b-a85781a5c911)
 
-<h3>Creating Users with Power Shell</h3>
+
 <p>
 Enable Remote Desktop for Domain Users.
   
