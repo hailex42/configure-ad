@@ -96,7 +96,6 @@ Verify Client-1 appears in ADUC, then move it to the _CLIENTS OU. </p>
 
 ![image](https://github.com/user-attachments/assets/7b5c660e-da04-4b2a-a31b-a85781a5c911)
 
-
 <p>
 Enable Remote Desktop for Domain Users.
   
@@ -104,7 +103,7 @@ Log into Client-1 as jane_admin.
 
 Open System Properties → Remote Desktop → Allow domain users.
 
-You can now log into Client-1 as a standard domain user.
+You can now log into Client-1 as a standard domain user. 
 
 Create Additional Users & Test Login.
 
