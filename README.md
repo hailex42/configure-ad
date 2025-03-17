@@ -43,7 +43,7 @@ These steps establish the foundation for further Active Directory configurations
 
 
 </p>
-<br />
+</br>
 
 <h3>Deploying Active Directory</h3>
 
@@ -54,10 +54,13 @@ These steps establish the foundation for further Active Directory configurations
 
 <p> (Server Manager>Add Roles and Features>Role-based or feature-based installation>Select a server from the server pool>select Active Directory Domain Services>Install</p>
 
-<h4>In Server Manager Dashboard<h/4>
-<p> 
-Click the flag and select 'Promote this server to a domain controller'>Deployment Configuration>Add a new forest>Root domain name: new forest (e.g., nero.com).>Install
 
+<h4>In Server Manager Dashboard<h/4>
+
+<p> 
+Click the flag and select 'Promote this server to a domain controller'>Deployment Configuration>Add a new forest>Root domain name: new forest (e.g., nero.com).>Install </p>
+
+<p>
 Restart and log back in as nero.com\labuser.
 
 In Active Directory Users and Computers (ADUC), create the following Organizaitonal Unit (OU):
