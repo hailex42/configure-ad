@@ -78,8 +78,11 @@ Log out and back in as mydomain.com\jane_admin (this is now your admin account).
 
 Now to join Client-1 to the domain controller:
 Log into Client-1.
+
 Go to systems settings, click rename this PC, in the Computer Name tab click Change to rename computer.
-In the 'Member of'section; select Domain and input the name of the domain: (eg. nero.com)
+
+In the 'Member of'section; select Domain and input the name of the domain: (eg. nero.com).
+
 Input logon credentials for nero.com\jane_admin (This account has permission to join the domain).
 
 Go back to the DC->ADUC->Nero.com
@@ -87,8 +90,9 @@ Create new _Clients OU
 
 Go back to the DC->ADUC->Nero.com
 Select Computers folder. 
+
 Verify that client-1 appears in there.
-Drag the client-1 into the _Clients OU
+Drag the client-1 into the _Clients OU.
 
 
 
