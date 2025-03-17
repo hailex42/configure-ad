@@ -68,7 +68,6 @@ _ADMINS
 
 ![image](https://github.com/user-attachments/assets/9a8a322b-5d82-4e03-a313-25b8152bbe45)
 
-
 <p>
 Create a user Jane Doe (jane_admin / Cyberlab123!).
 
@@ -85,7 +84,7 @@ Restart Client-1 from the Azure Portal.
 Log into Client-1 as labuser and join it to the domain.
 
 Verify Client-1 appears in ADUC, then move it to the _CLIENTS OU. </p>
-<b>
+</br>
 
 <h3>Creating Users with Power Shell</h3>
 
@@ -117,8 +116,6 @@ Attempt to log into Client-1 with one of the newly created accounts
 
 
 <h3>Group Policy and Managing Accounts</h3>
-<br>
-</br>
 
 - ### [Youtube: Account Lockouts](https://www.youtube.com/watch?v=Exgmu6gjWGI)
 
@@ -137,25 +134,21 @@ Attempt to log in 6 times with an incorrect password.
 
 Verify that the account is locked out in Active Directory.
 
-Unlock the account, reset the password, and attempt to log in successfully. </p>
+Unlock the account, reset the password, and attempt to log in successfully. </p></br>
 
 
 - ### [Youtube: Enabling & Disabling Accounts](https://www.youtube.com/watch?v=rrAw88eMW74)
 
-Disable the account in Active Directory.
-
+<p> Disable the account in Active Directory.
 Attempt to log in and observe the error message.
-
 Re-enable the account and verify successful login.
-
+</p>
 
 
 - ### [Youtube: Reviewing Logs](https://www.youtube.com/watch?v=Onkr8PGxfp8)
 
- Observe event logs on the Domain Controller.
-
-Check related logs on the Client Machine.
-</p>
+<p> Observe event logs on the Domain Controller.
+Check related logs on the Client Machine.</p></br>
 
 ![image](https://github.com/user-attachments/assets/03a08c15-81f8-47f6-afb2-f146839dc457)
-<br />
+
