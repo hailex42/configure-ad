@@ -31,6 +31,12 @@ This tutorial outlines the implementation of on-premises Active Directory within
 ![image](https://github.com/user-attachments/assets/ed823a33-e651-497e-822e-3b88b0594c04)
 
 <h3>Preparing Active Directory Infrastructure</h3>
+
+<h4> Video Demonstration</h4>
+<p>YouTube: Active Directory Infrastructure</p>
+
+(https://youtu.be/NdzmEvoZbUU)
+
 <p>
 
 To set up a Domain Controller in Azure, create a Resource Group, then set up a Virtual Network and Subnet. 
