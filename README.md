@@ -133,7 +133,7 @@ You can now log into Client-1 as a normal, non-administrative user now
 <p>
 Log into DC-1 as jane_admin.
 
-Open PowerShell_ISE as Administrator and run a script to create users.
+Open PowerShell_ISE as Administrator> Click create new script> Paste and save script> run script (to create users).
 
 Verify new users in ADUC under _EMPLOYEES.
 
