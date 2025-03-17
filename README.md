@@ -76,8 +76,11 @@ Add jane_admin to the Domain Admins security group. (Right click Jane Doe user i
 enter 'domain admins' in the 'enter the object name to select' field, then click ok.
 
 Log out and back in as mydomain.com\jane_admin (this is now your admin account).
+</p>
 
-Now to join Client-1 to the domain controller:
+<h4>Now to join Client-1 to the domain controller:</h4>
+
+<p>
 Log into Client-1.
 
 Go to systems settings, click rename this PC, in the Computer Name tab click Change to rename computer.
