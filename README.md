@@ -56,7 +56,7 @@ These steps establish the foundation for further Active Directory configurations
 
 - In Server Manager Dashboard
 
-Click the flag and select 'Promote this server to a domain controller'>Deployment Configuration>Add a new forest>Root domain name: new forest (e.g., nero.com).>Install </p>
+Click the flag and select 'Promote this server to a domain controller'>Deployment Configuration>Add a new forest>Root domain name: (e.g., nero.com).>Install </p>
 
 <p>
 - Restart and log back in as nero.com\labuser.
