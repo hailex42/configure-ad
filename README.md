@@ -35,7 +35,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 To set up a Domain Controller in Azure, create a Resource Group, then set up a Virtual Network and Subnet. 
 
-Deploy a Windows Server 2022 VM (DC-1) with a static Private IP, disable the Windows Firewall, and configure it as a Domain Controller. 
+Deploy a Windows Server 2022 VM (DC-1) with a static Private IP, disable the Windows Firewall. 
 
 Next, create a Windows 10 Client VM (Client-1), attach it to the same Virtual Network, and configure its DNS settings to point to DC-1’s Private IP. Restart Client-1, verify connectivity by pinging DC-1, and confirm DNS settings with ipconfig /all in PowerShell. 
 
